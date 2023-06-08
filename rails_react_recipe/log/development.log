@@ -1,0 +1,9 @@
+Started GET "/" for 127.0.0.1 at 2023-06-08 07:45:46 +0200
+Processing by HomepageController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 296)
+  Rendered layout layouts/application.html.erb (Duration: 642.4ms | Allocations: 105036)
+Completed 200 OK in 648ms (Views: 643.9ms | ActiveRecord: 0.0ms | Allocations: 108900)
+
+
