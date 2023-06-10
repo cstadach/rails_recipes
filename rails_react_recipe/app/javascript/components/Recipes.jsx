@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 const Recipes = () => {
   const navigate = useNavigate();
+  // adding a state variable to the component
   const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
@@ -14,6 +15,7 @@ const Recipes = () => {
         }
         throw new Error("Network response was not ok.");
       })
+    // stateVariableSet method
       .then((res) => setRecipes(res))
       .catch(() => navigate("/"));
   }, []);
@@ -43,6 +45,7 @@ const Recipes = () => {
     </div>
   );
 
+  // return the fragment containing the markup for the component
   return (
     <>
       <section className="jumbotron jumbotron-fluid text-center">
