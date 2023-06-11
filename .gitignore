@@ -1,9 +1,9 @@
 *.rbc
 capybara-*.html
 .rspec
-/rails_react_recipe/db/*.sqlite3
-/rails_react_recipe/db/*.sqlite3-journal
-/rails_react_recipe/db/*.sqlite3-[0-9]*
+/src/db/*.sqlite3
+/src/db/*.sqlite3-journal
+/src/db/*.sqlite3-[0-9]*
 /public/system
 /coverage/
 /spec/tmp
@@ -12,11 +12,11 @@ rerun.txt
 pickle-email-*.html
 
 # Ignore all logfiles and tempfiles.
-rails_react_recipe/log/*
-rails_react_recipe/tmp/*
+src/log/*
+src/tmp/*
 !/log/.keep
 !/tmp/.keep
-rails_react_recipe/app/assets/builds/*
+src/app/assets/builds/*
 
 # TODO Comment out this rule if you are OK with secrets being uploaded to the repo
 config/initializers/secret_token.rb
